@@ -21,6 +21,8 @@ public class SpringbootDockerApplication {
     public String hi(@PathVariable( value = "name") String name) throws UnknownHostException {
         
         String hostName = InetAddress.getLocalHost().getHostName();
+
+        System.out.println("hello world");
         return "hi," + name + "hostname:" + hostName;
     }
 
