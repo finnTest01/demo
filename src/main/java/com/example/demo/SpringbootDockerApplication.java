@@ -23,6 +23,7 @@ public class SpringbootDockerApplication {
         String hostName = InetAddress.getLocalHost().getHostName();
 
         System.out.println("hello world");
+        System.out.println("hello world");
         return "hi," + name + "hostname:" + hostName;
     }
 
