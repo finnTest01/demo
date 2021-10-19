@@ -24,6 +24,7 @@ public class SpringbootDockerApplication {
 
         System.out.println("hello world");
         System.out.println("hello world");
+        System.out.println("hello world444");
         return "hi," + name + "hostname:" + hostName;
     }
 
